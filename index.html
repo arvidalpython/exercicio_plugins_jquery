@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+    <section id="quadrado">
+    <form class="container">
+        
+            <label for="nome">Nome</label>
+        <div id="input-text">
+            <input type="text" name="nome" required>
+        </div>
+            <label for="email">E-mail</label>
+        <div id="input-text">        
+            <input type="email" name="email" required>
+        </div>
+            <label for="telefone">Telefone</label>
+        <div id="input-text">
+            <input type="tel" name="telefone" id="telefone" placeholder="(00) 00000-0000" required>
+        </div>
+            <label for="cpf">CPF</label>
+        <div id="input-text">
+            <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00" required>
+        </div>
+            <label for="endereco">Endereço</label>
+        <div id="input-text">
+            <input type="text" name="endereco" required>
+        </div>
+            <label for="cep">CEP</label>
+        <div id="input-text">
+            <input type="text" name="cep" id="cep" placeholder="00000-000" required>
+        </div>
+        <div id="botao">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+    </section>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="./Js/jquery.mask.min.js"></script>
+        <script src="main.js"></script>
+</body>
+</html>
